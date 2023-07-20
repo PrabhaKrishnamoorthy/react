@@ -1,0 +1,23 @@
+POST http://localhost:8001/register
+Content-Type: application/json
+
+{
+    "username": "Kamala",
+    "password": "devi"
+}
+
+###
+POST http://localhost:8001/login
+Content-Type: application/json
+
+{
+    "username": "Kamala",
+    "password": "devi"
+}
+
+###
+
+GET http://localhost:8001/employees/
+Content-Type:application/json
+
+###
